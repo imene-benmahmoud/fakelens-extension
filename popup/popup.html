@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="popup.css" />
+  <title>FakeLens</title>
+</head>
+<body>
+  <header>
+    <h1>FakeLens</h1>
+    <p id="page-url" class="muted">Chargement…</p>
+  </header>
+
+  <section>
+    <button id="ping" type="button">Scanner les images de l'onglet</button>
+    <dl id="report" class="report">
+      <dt>État</dt>
+      <dd id="status">En attente</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>Dernier résultat</h2>
+    <pre id="result" class="result">Aucune analyse.</pre>
+  </section>
+
+  <script src="popup.js"></script>
+</body>
+</html>
